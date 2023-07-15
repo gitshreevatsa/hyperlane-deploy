@@ -1,0 +1,72 @@
+{
+  "chains": {
+    "alfajores": {
+      "name": "alfajores",
+      "domain": 44787,
+      "addresses": {
+        "mailbox": "0xCC737a94FecaeC165AbCf12dED095BB13F037685",
+        "interchainGasPaymaster": "0x601a251c428A0DD39CfF25cEBf7D9fED7Cd2e8A9",
+        "validatorAnnounce": "0x3Fc742696D5dc9846e04f7A1823D92cb51695f9a"
+      },
+      "protocol": "ethereum",
+      "finalityBlocks": 0,
+      "connection": {
+        "type": "http"
+      },
+      "index": {
+        "from": 14863532
+      }
+    },
+    "mumbai": {
+      "name": "mumbai",
+      "domain": 80001,
+      "addresses": {
+        "mailbox": "0xCC737a94FecaeC165AbCf12dED095BB13F037685",
+        "interchainGasPaymaster": "0x626bcb809B0Bad632B2ddf3F9D6338D0E34a0864",
+        "validatorAnnounce": "0x3Fc742696D5dc9846e04f7A1823D92cb51695f9a"
+      },
+      "protocol": "ethereum",
+      "finalityBlocks": 32,
+      "connection": {
+        "type": "http"
+      },
+      "index": {
+        "from": 29390033
+      }
+    },
+    "sepolia": {
+      "name": "sepolia",
+      "domain": 11155111,
+      "addresses": {
+        "mailbox": "0xCC737a94FecaeC165AbCf12dED095BB13F037685",
+        "interchainGasPaymaster": "0x47DBDd7Dde843e97C3827d4AE6f1d3f7486D3E48",
+        "validatorAnnounce": "0x3Fc742696D5dc9846e04f7A1823D92cb51695f9a"
+      },
+      "protocol": "ethereum",
+      "finalityBlocks": 2,
+      "connection": {
+        "type": "http"
+      },
+      "index": {
+        "from": 3082913
+      }
+    },
+    "tevmos": {
+      "name": "tevmos",
+      "domain": 9000,
+      "addresses": {
+        "mailbox": "0x9Ee7a5a15ff440e913E56B84F3cAc03e9d991D06",
+        "interchainGasPaymaster": "0x268d8c6E302b026b7e109419de20FbBe61c69545",
+        "validatorAnnounce": "0x62a35952456f18A7F1fe8aE1F9fFD4aacC778123"
+      },
+      "protocol": "ethereum",
+      "finalityBlocks": 1,
+      "connection": {
+        "type": "http"
+      },
+      "index": {
+        "from": 15656668
+      }
+    }
+  }
+}
